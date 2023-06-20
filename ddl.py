@@ -12,6 +12,7 @@ from cfscrape import create_scraper
 from lk21 import Bypass
 from lxml import etree
 from requests import get
+from pyrogram import Client
 
 
 UPTOBOX_TOKEN = environ.get("UPTOBOX_TOKEN","4a4ecf35552fea876da1d63e7fd000d2cb2fo")
